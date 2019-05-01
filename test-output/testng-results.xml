@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41744" started-at="2019-05-01T18:45:09Z" finished-at="2019-05-01T18:45:51Z">
+  <suite name="Default suite" duration-ms="71685" started-at="2019-05-01T19:21:14Z" finished-at="2019-05-01T19:22:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41744" started-at="2019-05-01T18:45:09Z" finished-at="2019-05-01T18:45:51Z">
-      <class name="selenium.util.tests.FileDownLoadTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:selenium.util.tests.FileDownLoadTest@cb5822]" name="init" is-config="true" duration-ms="18244" started-at="2019-05-01T18:45:09Z" finished-at="2019-05-01T18:45:27Z">
+    <test name="Default test" duration-ms="71685" started-at="2019-05-01T19:21:14Z" finished-at="2019-05-01T19:22:26Z">
+      <class name="selenium.util.tests.FileDownloadTestFireFox">
+        <test-method status="PASS" signature="init()[pri:0, instance:selenium.util.tests.FileDownloadTestFireFox@cb5822]" name="init" is-config="true" duration-ms="26893" started-at="2019-05-01T19:21:14Z" finished-at="2019-05-01T19:21:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="downloadTest()[pri:0, instance:selenium.util.tests.FileDownLoadTest@cb5822]" name="downloadTest" duration-ms="22515" started-at="2019-05-01T18:45:27Z" finished-at="2019-05-01T18:45:50Z">
+        <test-method status="PASS" signature="downloadTest()[pri:0, instance:selenium.util.tests.FileDownloadTestFireFox@cb5822]" name="downloadTest" duration-ms="42199" started-at="2019-05-01T19:21:41Z" finished-at="2019-05-01T19:22:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- downloadTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:selenium.util.tests.FileDownLoadTest@cb5822]" name="teardown" is-config="true" duration-ms="888" started-at="2019-05-01T18:45:50Z" finished-at="2019-05-01T18:45:51Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:selenium.util.tests.FileDownloadTestFireFox@cb5822]" name="teardown" is-config="true" duration-ms="2545" started-at="2019-05-01T19:22:23Z" finished-at="2019-05-01T19:22:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- selenium.util.tests.FileDownLoadTest -->
+      </class> <!-- selenium.util.tests.FileDownloadTestFireFox -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

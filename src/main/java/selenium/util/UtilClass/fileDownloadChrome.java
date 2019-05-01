@@ -18,7 +18,7 @@ import org.openqa.selenium.support.PageFactory;
 
 
 
-public class fileDownload {
+public class fileDownloadChrome {
 	
 static String website="https://the-internet.herokuapp.com/download";
 static String fileext=".txt";
@@ -28,7 +28,7 @@ static WebDriver driver;
 @FindBy(xpath="//a")
 static List<WebElement> files;
 
-public fileDownload()
+public fileDownloadChrome()
 {
 	PageFactory.initElements(driver, this);
 }
