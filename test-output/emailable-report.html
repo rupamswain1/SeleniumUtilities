@@ -8,11 +8,48 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">71,685</td><td></td><td></td></tr>
+<tr><th colspan="7">Selenium Util</th></tr>
+<tr><td><a href="#t0">WebDriverMAngaer</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">1</td><td class="num">113,304</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">selenium.util.tests.FileDownloadTestFireFox</td><td><a href="#m0">downloadTest</a></td><td rowspan="1">1556738501476</td><td rowspan="1">42199</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Selenium Util</th></tr></tbody><tbody id="t0"><tr><th colspan="4">WebDriverMAngaer &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">selenium.util.tests.WebDriverManagerTest</td><td><a href="#m0">FireFox</a></td><td rowspan="1">1557658081622</td><td rowspan="1">113127</td></tr><tr><th colspan="4">WebDriverMAngaer &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">selenium.util.tests.WebDriverManagerTest</td><td><a href="#m1">chrome</a></td><td rowspan="1">1557658081622</td><td rowspan="1">57595</td></tr><tr class="passedeven"><td><a href="#m2">edge</a></td><td rowspan="1">1557658081622</td><td rowspan="1">85414</td></tr><tr class="passedeven"><td><a href="#m3">ie</a></td><td rowspan="1">1557658081622</td><td rowspan="1">75247</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">selenium.util.tests.FileDownloadTestFireFox#downloadTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>WebDriverMAngaer</h2><h3 id="m0">selenium.util.tests.WebDriverManagerTest#FireFox</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: connection refused
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DAWN&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_05&apos;
+Driver info: driver.version: WebDriverManagerDriver
+remote stacktrace: 
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.W3CHandshakeResponse$$Lambda$233/1789251538.apply(Unknown Source)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.HandshakeResponse$$Lambda$208/1950615757.apply(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake$$Lambda$209/1245815822.apply(Unknown Source)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:529)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:516)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at selenium.util.driver.WebDriverManagerDriver.&lt;init&gt;(WebDriverManagerDriver.java:25)
+	at selenium.util.tests.WebDriverManagerTest.FireFox(WebDriverManagerTest.java:21)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">selenium.util.tests.WebDriverManagerTest#chrome</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">selenium.util.tests.WebDriverManagerTest#edge</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">selenium.util.tests.WebDriverManagerTest#ie</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
